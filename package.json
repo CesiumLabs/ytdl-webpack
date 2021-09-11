@@ -1,16 +1,18 @@
 {
-  "name": "ytdl-core-blob",
-  "version": "0.0.1",
-  "description": "Webpack ytdl-core to remove node 10 dependency",
+  "name": "@devsnowflake/ytdl-webpack",
+  "version": "1.0.0",
+  "description": "Webpack ytdl-core & youtube-sr",
   "main": "index.js",
   "scripts": {
-    "start": "node build.js",
-    "build": "node build.js"
+    "build": "node index.js",
+    "format": "prettier --write **/*.js"
   },
   "license": "MIT",
   "devDependencies": {
-    "ytdl-core": "2.1.7",
-    "webpack": "4.29.6",
-    "source-map-support": "0.5.19"
+    "prettier": "^2.4.0",
+    "source-map-support": "0.5.20",
+    "webpack": "5.52.1",
+    "youtube-sr": "^4.1.7",
+    "ytdl-core": "4.9.1"
   }
 }
